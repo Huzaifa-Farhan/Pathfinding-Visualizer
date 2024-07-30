@@ -1,0 +1,90 @@
+/* General styling for each node */
+.node {
+  width: 25px; /* Sets the width of each node */
+  height: 25px; /* Sets the height of each node */
+  outline: 1px solid rgb(92, 90, 90); /* Adds a border around each node */
+  display: inline-block; /* Allows nodes to sit next to each other in a row */
+}
+
+/* Styling for the finish node */
+.node-finish {
+  background-color: red; /* Background color for fallback */
+  background-image: url('img/end.png'); /* Sets an image for the finish node */
+  background-size: cover; /* Ensures the image covers the entire node */
+  background-position: center; /* Centers the image within the node */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+
+/* Styling for the start node */
+.node-start {
+  background-color: green; /* Background color for fallback */
+  background-image: url('img/start.png'); /* Sets an image for the start node */
+  background-size: cover; /* Ensures the image covers the entire node */
+  background-position: center; /* Centers the image within the node */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+
+/* Styling and animation for visited nodes */
+.node-visited {
+  animation-name: visitedAnimation; /* Name of the animation */
+  animation-duration: 1.5s; /* Duration of the animation */
+  animation-timing-function: ease-out; /* Animation timing function */
+  animation-delay: 0; /* No delay before the animation starts */
+  animation-direction: alternate; /* Alternate the direction of the animation */
+  animation-iteration-count: 1; /* Play the animation only once */
+  animation-fill-mode: forwards; /* Retain the final state of the animation */
+  animation-play-state: running; /* Start the animation immediately */
+}
+
+/* Keyframes for the visited node animation */
+@keyframes visitedAnimation {
+  0% {
+    transform: scale(0.3); /* Start small */
+    background-color: rgba(0, 0, 66, 0.75); /* Start with a dark blue color */
+    border-radius: 100%; /* Make the node circular */
+  }
+  50% {
+    background-color: rgba(17, 104, 217, 0.75); /* Transition to a lighter blue */
+  }
+  75% {
+    transform: scale(1.2); /* Grow larger */
+    background-color: rgba(0, 217, 159, 0.75); /* Transition to teal */
+  }
+  100% {
+    transform: scale(1); /* Return to original size */
+    background-color: rgba(0, 190, 218, 0.75); /* Final color */
+  }
+}
+
+/* Styling for wall nodes */
+.node-wall {
+  background-color: rgb(12, 53, 71); /* Dark blue color for walls */
+}
+
+/* Styling and animation for the shortest path nodes */
+.node-shortest-path {
+  animation-name: shortestPath; /* Name of the animation */
+  animation-duration: 1.5s; /* Duration of the animation */
+  animation-timing-function: ease-out; /* Animation timing function */
+  animation-delay: 0; /* No delay before the animation starts */
+  animation-direction: alternate; /* Alternate the direction of the animation */
+  animation-iteration-count: 1; /* Play the animation only once */
+  animation-fill-mode: forwards; /* Retain the final state of the animation */
+  animation-play-state: running; /* Start the animation immediately */
+}
+
+/* Keyframes for the shortest path animation */
+@keyframes shortestPath {
+  0% {
+    transform: scale(0.6); /* Start slightly smaller */
+    background-color: rgb(19, 72, 216); /* Start with a yellow color */
+  }
+  50% {
+    transform: scale(1.2); /* Grow larger */
+    background-color: rgb(19, 72, 216); /* Keep the yellow color */
+  }
+  100% {
+    transform: scale(1); /* Return to original size */
+    background-color: rgb(19, 72, 216); /* Final yellow color */
+  }
+}

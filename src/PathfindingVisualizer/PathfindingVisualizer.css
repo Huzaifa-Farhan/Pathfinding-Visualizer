@@ -1,0 +1,5 @@
+.grid {
+  /* Applies a margin to the top, right, bottom, and left */
+  /* 100px on top, 0 on right, 100px on bottom, and 0 on left */
+  margin: 100px 0 100px 0;
+}
