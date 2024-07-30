@@ -14,18 +14,22 @@ Node States: Differentiates nodes based on their state:
 
 
 # How to Run
-1. Clone the Repository:  
-git clone https://github.com/yourusername/pathfinding-visualizer.git  
+1. Clone the Repository:
+    ```bash
+    git clone https://github.com/yourusername/pathfinding-visualizer.git  
 
-2. Navigate to the Project Directory  
-cd pathfinding-visualizer  
+3. Navigate to the Project Directory
+  ```bash
+  cd pathfinding-visualizer  
 
-3. Install Dependencies  
+5. Install Dependencies  
 Ensure you have Node.js installed, then run:  
-npm install  
+    ```bash
+    npm install  
 
-4. Start the Development Server  
-npm start  
+6. Start the Development Server
+    ```bash
+    npm start  
 Open your browser and go to http://localhost:3000 to view the application.  
 
 # Code Overview  
@@ -70,5 +74,5 @@ Styles:
 Styles:  
 .grid: Sets margin to create space around the grid.  
 
-# NOTE:  
-I was able to create the following application by following the Tutorial created by Clément Mihailescu on Youtube. Here is a link for the tutorial for anyone interested: https://youtu.be/msttfIHHkak?si=XQXExVhT-s5hya_t  
+> **Note**:  
+> I was able to create the following application by following the Tutorial created by Clément Mihailescu on Youtube. Here is a link for the tutorial for anyone interested: https://youtu.be/msttfIHHkak?si=XQXExVhT-s5hya_t  
