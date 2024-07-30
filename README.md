@@ -19,8 +19,8 @@ Node States: Differentiates nodes based on their state:
     git clone https://github.com/yourusername/pathfinding-visualizer.git  
 
 3. Navigate to the Project Directory
-  ```bash
-  cd pathfinding-visualizer  
+    ```bash
+    cd pathfinding-visualizer  
 
 5. Install Dependencies  
 Ensure you have Node.js installed, then run:  
@@ -30,7 +30,8 @@ Ensure you have Node.js installed, then run:
 6. Start the Development Server
     ```bash
     npm start  
-Open your browser and go to http://localhost:3000 to view the application.  
+
+Open your browser and go to http://localhost:3000 to view the application.    
 
 # Code Overview  
 ### PathfindingVisualizer.js  
