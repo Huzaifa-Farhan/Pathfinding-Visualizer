@@ -4,13 +4,14 @@ This project is a web application for visualizing pathfinding algorithms, specif
 # Features
 Dijkstra's Algorithm Visualization: Visualizes the process of Dijkstra's Algorithm in real-time.  
 Interactive Grid: Users can click and drag to create walls that obstruct the pathfinding.  
+Responsive Layout: Adjusts margins for top and bottom spacing to ensure proper layout.  
 Node States: Differentiates nodes based on their state:  
 * Start Node
 * Finish Node
 * Wall
 * Visited Node
 * Shortest Path Node  
-Responsive Layout: Adjusts margins for top and bottom spacing to ensure proper layout.  
+
 
 # How to Run
 1. Clone the Repository:  
