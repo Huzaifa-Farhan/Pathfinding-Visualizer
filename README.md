@@ -9,7 +9,7 @@ Node States: Differentiates nodes based on their state:
 * Finish Node
 * Wall
 * Visited Node
-* Shortest Path Node
+* Shortest Path Node  
 Responsive Layout: Adjusts margins for top and bottom spacing to ensure proper layout.  
 
 # How to Run
@@ -31,7 +31,7 @@ Open your browser and go to http://localhost:3000 to view the application.
 ### PathfindingVisualizer.js  
 Component: Main React component for visualizing the pathfinding algorithm.  
 State: Manages the grid layout, mouse interaction state, and visualization.  
-**Methods:  **
+Methods:  
 componentDidMount(): Initializes the grid.  
 handleMouseDown(), handleMouseEnter(), handleMouseUp(): Manage mouse interactions to toggle walls.  
 visualizeDijkstra(): Runs Dijkstra's Algorithm and triggers animations.  
