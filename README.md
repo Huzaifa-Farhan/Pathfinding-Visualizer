@@ -9,7 +9,7 @@ This project is a web application for visualizing pathfinding algorithms, specif
 * Finish Node
 * Wall
 * Visited Node
-* Shortest Path Node
+* Shortest Path Node__
 Responsive Layout: Adjusts margins for top and bottom spacing to ensure proper layout.
 
 # How to Run
